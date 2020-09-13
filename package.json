@@ -1,0 +1,38 @@
+{
+  "name": "yxess",
+  "version": "0.0.2",
+  "description": "Find, Diagnose and fix problems in your JavaScript code.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yxess": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxess/yxess.git"
+  },
+  "keywords": [
+    "yxess",
+    "static",
+    "modular",
+    "fast",
+    "site",
+    "website",
+    "js",
+    "javascript",
+    "es6",
+    "checking"
+  ],
+  "author": "Bobbbay Bobbayan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yxess/yxess/issues"
+  },
+  "homepage": "https://github.com/yxess/yxess#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^16.0.3"
+  }
+}
