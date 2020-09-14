@@ -36,9 +36,7 @@ npm install -g
 npm install -g yxess
 ```
 
-<br/>
-
-More ways to install coming soon!
+More ways to install coming soon, promise!
 
 ## Packages
 Yxess has a custom written package manager, built into the `yxess` command, that allows you to install & use many different superpowers. 
@@ -82,7 +80,7 @@ And as they all say...
 So you've decided to stick around, eh? We're always looking for help! Feel free to modify any piece of code here, and then open a PR! As long as you [install from source](#from-source-requires-npm), you can modify the pure Yxess code. Running `npm install` when done will validate that you have a working installation. Once you think your stuff is good enough, [open a PR](https://github.com/yxess/yxess/pulls)! And remember, we're [GNU GPL 3 Licensed](LICENSE).
 
 ## Links
- - [Github](https://github.com/yxess/yxess)
+ - [Github](https://github.com/yxess/)
  - [NPM](https://www.npmjs.com/package/yxess)
 
 ## And finally...
