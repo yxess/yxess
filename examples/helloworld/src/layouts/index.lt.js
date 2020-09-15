@@ -1,3 +1,5 @@
+const react = require("react");
+
 const mainPage = require("./mainPage.lt.js");
 
-mainPage.init();
+console.log(mainPage.init());

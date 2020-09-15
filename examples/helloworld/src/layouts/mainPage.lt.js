@@ -1,19 +1,16 @@
 // Page (layout) file
-//! Change this path later
-const layer = require("../../../../src/modules/layer.js");
+const React = require("react");
+const Button = require("./components/button.co.js");
 
 // TODO: CSS
 //const button = require("./components/button.co.js");
 
 exports.init = function () {
-  let header = new layer.Div();
-  header.class += "header";
-
-  let footer = new layer.Div();
-  footer.class += "footer";
-
-  console.log(header.style.height);
-  return header, footer;
+  const title = React.createElement(
+    "div",
+    { className: "shopping-list" },
+    React.createElement(Button.Title /* ... h1 children ... */),
+    React.createElement("ul" /* ... ul children ... */)
+  );
+  return title.props.children[0].type.render();
 };
-
-exports.init();
