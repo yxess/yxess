@@ -5,7 +5,7 @@ Yxess is a sexy, modular and blazing-fast static site generator based on Vanilla
  - [Why](#why)
  - [Installation](#installation)
  - [Packages](#packages)
- - [A general Yxess project looks like...](#a-general-yxess-project-looks-like)
+ - [A general Yxess project](#a-general-yxess-project-looks-like)
  - [Contribute](#contribute)
  - [Links](#links)
  - [Bonus](#why-learn-all-this-nonsense)
